@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import localFont from 'next/font/local';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
-import { WhatsAppFloat } from '@/components/WhatsAppFloat';
+import { ShowcaseCTA } from '@/components/ShowcaseCTA';
 import { site } from '@/content/site';
 import './globals.css';
 
@@ -43,7 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="konten">{children}</main>
         <Footer />
-        <WhatsAppFloat />
+        <ShowcaseCTA />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
       </body>
     </html>
