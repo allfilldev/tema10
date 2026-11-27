@@ -61,3 +61,5 @@ src/
 ```
 
 Form kontak versi showcase membuka WhatsApp dengan pesan terisi otomatis, tanpa backend.
+
+- Logo All Fill Dev: satu warna, ganti warnanya lewat token `--color-logo` (dan `--color-logo-light` untuk latar gelap) di `src/app/globals.css`
